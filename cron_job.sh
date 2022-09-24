@@ -22,7 +22,7 @@ then
     mv log.csv $LOG_DIR/weather-data-$DATE.csv
     rm log.json
     git add data/*.csv
-    git commit -m "Test - Automated upload on $DATE"
+    git commit -m "Automated upload on $DATE"
     git push origin main
     rm data/*.csv
 fi
